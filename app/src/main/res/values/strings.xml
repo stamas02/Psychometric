@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Psychometric</string>
+    <string name="scenatio_title">Scenario 1:</string>
+    <string name="situation_title">Situation 1:</string>
+    <string name="answers_title">Answers 1:</string>
+
+    <string name="scenario_text">Scenario Text</string>
+    <string name="situation_text">Situation Text</string>
+
+    <string-array name="anser_texts">
+        <item>text_string</item>
+    </string-array>
+
+</resources>
