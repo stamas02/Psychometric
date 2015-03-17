@@ -23,13 +23,14 @@
             android:weightSum="1">
 
             <TextView android:text="@string/scenatio_title" android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:id="@+id/dsds"
                 android:textSize="20dp"
+                android:gravity="center_vertical"
                 android:textColor="#ff000234" />
 
             <TextView
-                android:text="@string/scenario_text"
+                android:text="Text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/tv_scenatio_text"
@@ -41,8 +42,9 @@
             <TextView
                 android:text="@string/situation_title"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="44dp"
                 android:id="@+id/textView2"
+                android:gravity="center_vertical"
                 android:layout_alignBaseline="@+id/tv_situation_text"
                 android:layout_alignBottom="@+id/tv_situation_text"
                 android:layout_alignParentLeft="true"
@@ -51,7 +53,7 @@
                 android:textSize="20dp" />
 
             <TextView
-                android:text="@string/situation_text"
+                android:text="Text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/tv_situation_text"
@@ -62,36 +64,41 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="54dp"
                 android:text="@string/answers_title"
                 android:id="@+id/textView4"
-                android:layout_weight="0.89"
                 android:textColor="#ff000234"
-                android:textSize="20dp" />
+
+                android:textSize="20dp"
+                android:gravity="center_vertical" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="New Text"
-                android:id="@+id/tv_answer1_text" />
+                android:id="@+id/tv_answer1_text"
+                android:paddingBottom="10dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="New Text"
-                android:id="@+id/tv_answer2_text" />
+                android:id="@+id/tv_answer2_text"
+                android:paddingBottom="10dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="New Text"
-                android:id="@+id/tv_answer3_text" />
+                android:id="@+id/tv_answer3_text"
+                android:paddingBottom="10dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="New Text"
-                android:id="@+id/tv_answer4_text" />
+                android:id="@+id/tv_answer4_text"
+                android:paddingBottom="10dp" />
 
         </LinearLayout>
     </ScrollView>
@@ -99,7 +106,9 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText"
+        android:id="@+id/et_input_answer"
+        android:inputType="text"
+        android:imeOptions="actionDone"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
